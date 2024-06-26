@@ -1,0 +1,66 @@
+*{
+  overflow-y: hidden ;
+  overflow-x: hidden;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+body{
+  background-color: #e2e3e7;
+  position: relative;
+
+}
+.strip{
+  background-color: #212121;
+  height: 6%;
+  width: 100%;
+  text-align: center;
+}
+.strip-inner{
+  color: aliceblue;
+  font-size: 25px;
+  align-items: center;
+  margin-top: 9px;
+}
+
+.dm-logo{
+  text-align: center;
+  margin-top: 25px;
+}
+@media screen and (max-width: 767px) {
+  .dm-logo img {
+      max-height: 25px;
+  }
+}
+
+.navbaar a{
+  font-size: larger;
+  padding:  4px;
+  border-radius: 28px;
+  margin-top: 20px;
+
+
+}
+.navbaar ul li :hover{
+  padding: 12px;
+  background-color: black  !important;
+  color: rgb(211, 92, 41) !important;
+
+}
+
+
+.card-body a{
+  text-align: center;
+}
+@media screen and (max-width: 767px){
+  .cards-inner{
+    flex-wrap: wrap;
+  }
+}
+
+
+
+ 
+
+
+
+
